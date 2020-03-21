@@ -12,7 +12,7 @@ This header greeted me every excruciating time I ran `jekyll new` to start over 
 
 To spare you the same trouble, I wrote up this quick guide that captures everything I learned during the creation of the very blog you see before you now!
 
-# Jekyll
+## Jekyll
 
 [Jekyll](https://jekyllrb.com/) is a static site generator which allows one to quickly generate a site using Markdown, Liquid, HTML & CSS. The way I look at it is: you use markdown to create pages and templatized components of your website quikcly and easily, and these markdown files are redeployed as HTML when you `serve` or `build` your site.[^1]
 
@@ -20,7 +20,7 @@ From my research, it seemed to the be leading standard for this type of deployme
 
 One huge heads up before you get started: getting Jekyll to work on Windows is a little iffy, even just for developing your site, and you probably aren't going to be self-hosting your site from a windows server. [Jekyll's documentation provides some workarounds](https://jekyllrb.com/docs/installation/windows/), but I would highly recommend looking elsewhere if you're going to rely on Windows for hosting or developing your Jekyll site.
 
-# A Word on Github Pages
+### A Brief Word on Github Pages
 When I first got started with Jekyll, I used github pages to set up a site in under an hour, which was a great way to learn the absolute basics and become familiar with the files and folders of a Jekyll site. Eventually, I realized I wanted to self-host, or host my static site from a server over which I have full control. It takes more effort, but there's so much more to learn when you "DIY" like this. 
 
 This guide will strictly focus on self-hosting, however, I highly suggest this [Jekyll on Github Pages](http://jmcglone.com/guides/github-pages/) guide to get started on a site you plan on hosting strictly with Github Pages.
@@ -31,11 +31,11 @@ For this stack, I opted to use a basic EC2 instance on AWS to take advantage of 
 
 ### Self-Serving
 
-Going the self-serve route, we'll need to decide how we'll be hosting our completed site. Like I mentioned, I [set up an EC2 instance in AWS](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html) running Ubuntu server 18.04 to act as the server for my live site. This is the server that visitors will connect to in search of our sweet blog posts.
+Going the self-serve route, we'll need to decide how we'll be hosting our completed site. Like I mentioned, [I set up an EC2 instance in AWS](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html) running Ubuntu server 18.04 to act as the server for my live site. This is the server that visitors will connect to in search of our sweet blog posts.
 
 ## Setting up Jekyll
 
-We'll need to follow the next few steps in both our development environment *and* our server, as both will need to have Jekyll installed to do their jobs!
+We'll need to follow the steps in this section for both our development environment *and* our production server, as both will need to have Jekyll installed to do their jobs!
 
 1. To get started, let's make sure our respective Ubuntu environments are up to date:
     ```bash
@@ -71,9 +71,9 @@ Now you should be all set to start working on your site!
 ## Your First Site
 Jekyll is cool because it can give us a functional site in a matter of minutes, which we can use as a starting point to build out a site of which we can be really proud! 
 
-Now, we should be working in our dev environment for a little while, because we want to get our site working and ready for prime time before we expose it to the outside world, lest we look like charlatans in the eyes of our colleagues.
+For the next few sections, we'll work in our dev environment because we want to get our site working and ready for prime time before we expose it to the outside world - lest we look like charlatans in the eyes of our colleagues!
 
-Okay, let's get started!
+Okay, let's get started.
 
 1. Navigate to an area you want your sites to live while we work on them. 
 
@@ -97,7 +97,7 @@ Okay, let's get started!
     _posts
     ```
 
-4. We'll get into these files a little later, for now let's get our site up and running. First, let's use the following command to "serve" our site in a dynamic way. Make sure you're in the directory of your_site and run 
+4. We'll get into these files a little later, for now let's get our site up and running. First, let's use the following command to "serve" our site in a dynamic way. Make sure you're in the directory of your_site and run:
 
     ```bash
     jekyll serve
@@ -106,16 +106,83 @@ Okay, let's get started!
     ```bash
     http://127.0.0.1:4000
     ```
-5. You'll see the example site show in your browser. Click around and soak in your success, you've earned it champ.
+5. You'll see the example site show in your browser. Click around and soak in your success. You've earned it, champ.
 
-![Your First Site](/assets/images/your_first_site.png)
+    ![Your First Site](/assets/images/your_first_site.png)
 
-## Make It Yours
-Okay, so your first site isn't a monumental achievement in aesthetics. It's cool, we all have to start somewhere.
+6. Finally, to stop serving the site, send CTRL+C to the terminal.
+
+## Your Second Site
+Okay, so your first site wasn't a monumental achievement in aesthetics. It's cool, we all have to start somewhere.
 
 I know, my first thought was also "Great, this looks like !#%@".
 
-Don't worry, we'll tackle the aesthetics shortly, however let's start by fixing some of the titles and names, unless "Your Awesome Title" is what you're sticking with...
+Fortunately, we'll tackle the aesthetics shortly, however let's start by fixing some of the titles and names, unless "Your Awesome Title" is what you're sticking with...
+
+*Unfortunately*, the default starter site isn't the best way to learn how to do this. For this next exercise, we'll clone a demo Jekyll site from github
+
+1. Navigate back to where you want your sites to be while we work
+2. Clone [this demo site](http://hankquinlan.github.io./) courtesy of Jonathan McGlone [^3]
+    ```bash
+    git clone https://github.com/hankquinlan/hankquinlan.github.io.git
+    ```
+3. We can serve up this site the same way we did with our first one. Navigate into the folder and run
+    ```bash
+    jekyll serve
+    ```
+4. Navigate to the same `127.0.0.1:4000` address in your browser. This looks sweet, but unless your name is Hank Quinlan, it isn't going to work without some customization.
+
+5. Keep serving your site for the next section.
+
+## Customize - Pages
+<img src="{{ "/assets/images/Your_Second_Site_Files.png" | absolute_url }}" hspace="20" align="right">
+Let's start poking around in the some of these files and see what kind of alterations we can make. Like I mentioned, I'm using VSCode to modify the files, but you're welcome to use whatever you desire.
+
+The site you cloned and are currently serving should have a directory structure similar to what is shown on the right.
+<br>
+<br>
+
+
+
+Let's start by looking at `index.html`-->
+<br>
+<br>
+1. It's pretty obvious what we want to change here, but first, look at the document's structure. Notice the first four lines are dedicated to some high level information. This is called [Front Matter](https://jekyllrb.com/docs/front-matter/), and you'll need to add and modify this part of the file often to make sure Jekyll does what you want it to.
+
+    Everything in the rest of this file is basic HTML. Go ahead and personalize this file, swapping out Hank-related references to ones more relevant to you.
+
+2. Once you're done, save the file. You're still serving the site right? Go back to your web browser and refresh/reconnect to `127.0.0.1:4000`. Voila! The changes should appear automatically - without you having to tell Jekyll to reload anything. This is why using `jekyll serve` can be so handy!
+
+3. Now, look at the `about` folder and open `index.html` inside. Look familiar? Pay attention to that [Front Matter](https://jekyllrb.com/docs/front-matter/) again. Same as the root `index.html` file we just edited. 
+
+    Notice where it says `layout: default`. This is the part of the front matter that tells Jekyll how to format the page based on layouts you define for your site. This saves developers time and effort, because they can just call the layout they want in a single line, rather than duplicate code everytime they want to reuse a format.
+
+4. Customize the information in here to your liking. Save.
+5. Take a look at the `cv` folder and modify the `index.html` file in the same fashion.
+
+All right, looks like most of the page is personalized to us at this point, but there are still some Hank-references to be found...
+
+## Customize - Layouts
+
+The remaining Hank Quinlan references are in the footer, where it says `email` and `github.com/hankquinlan`. How do we change these? 
+
+Pay attention to the fact that the header and footer are consistent across all the different pages to which we navigate. This is a major clue that they are part of the Layout we're calling in all the pages: `Layout: Default`. So, we'll need to edit the Layout itself!
+
+1. Go to the `_layouts` folder.
+
+2. Open `default.html`. Here's the material that is dictating what sits in the header and footer of our pages marked with the `layout: default`. 
+
+3. Swap out the values as you like down in the footer. Add (or remove) a link if you want. I added my Bandcamp page:
+    ```html
+    <li><a href="https://bandcamp.ianterry.com">bandcamp</a></li>
+    ```
+4. Save and examine your site. You are still serving it, right?
+
+5. Feel free to look at the `post.html` layout as well, though we won't be making any changes here.
+
+## Posts
+
+
 
 
 ## Leveling up
@@ -123,3 +190,5 @@ Don't worry, we'll tackle the aesthetics shortly, however let's start by fixing 
 [^1]: When you run `jekyll serve` in the directory of your jekyll site, it starts a service on port 4000 that you can use to look at your site as you configure and customize it. This cool feature dynamically updates changes to the site as you save them. `jekyll build` renders and publishes your HTML files to the _site directory, which is where your webserver points to show your site to visitors.
 
 [^2]: A nod back to the limitations of Windows, my workstation is running W10, so I virtualize an Ubuntu Desktop environment for most of my development work, which is my suggested route if you're a Windows user and don't know how best to compensate.
+
+[^3]: http://jmcglone.com/
