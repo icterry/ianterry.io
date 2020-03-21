@@ -164,15 +164,18 @@ All right, looks like most of the page is personalized to us at this point, but 
 
 ## Customize - Layouts
 
-The remaining Hank Quinlan references are in the footer, where it says `email` and `github.com/hankquinlan`. How do we change these? 
+The remaining Hank Quinlan references are in the footer where it says `email` and `github.com/hankquinlan`. How do we change these? 
 
 Pay attention to the fact that the header and footer are consistent across all the different pages to which we navigate. This is a major clue that they are part of the Layout we're calling in all the pages: `Layout: Default`. So, we'll need to edit the Layout itself!
 
-1. Go to the `_layouts` folder.
+1. Go to the `_layouts` directory.
 
 2. Open `default.html`. Here's the material that is dictating what sits in the header and footer of our pages marked with the `layout: default`. 
 
-3. Swap out the values as you like down in the footer. Add (or remove) a link if you want. I added my Bandcamp page:
+3. Swap out the values as you like down in the footer. Add, modify, or remove these links to your liking.
+
+    Personally, I added my Bandcamp page:
+
     ```html
     <li><a href="https://bandcamp.ianterry.com">bandcamp</a></li>
     ```
@@ -182,6 +185,48 @@ Pay attention to the fact that the header and footer are consistent across all t
 
 ## Posts
 
+All right, now let's talk about posts. With Jekyll, there are three big things you need to know:
+
+1. Posts go in the `_posts` directory
+2. Posts are written in [Markdown](https://en.wikipedia.org/wiki/Markdown), with file extensions of either `.md` or `.markdown`
+3. Posts *must* follow the folling naming convension for their files:
+    ```bash
+    YYYY-03-21-your-blog-post-name.md
+    ```
+Let's open the existing post in this folder.
+
+1. Notice that this time, the Front Matter reads `layout: posts`. This tells Jekyll to use the posts.html layout in the layout folder instead of the default.html layout.
+2. The Front Matter also contains a `title:`, which not only displays at the top of the post, but also in the tab of your web browser.
+3. Finally, it's got a line for `date:` as well.
+
+Instead of modifying this one, let's make our own.
+
+1. Create a new post in the `_posts` directory.
+2. Name it with the Jekyll post naming convention:
+
+    ```md
+    YYYY-MM-DD-My-First-Post.md
+    ```
+
+3. Open it up, add in the Front Matter, and then write up a cool blog post.
+
+    ```md
+    ---
+    layout: posts
+    title: This is my cool post
+    date: 2020-03-21
+    ---
+
+    I've taken over this blog.
+    Hank Quinlan has been terminated.
+    Prepare for the influx of superior content.
+    ```
+
+4. Save and refresh your browser *you are still serving right?*
+
+All right, our blog is totally filled with our own content, and Hank Quinlan is ousted. Nice job.
+
+## Aesthetics
 
 
 
