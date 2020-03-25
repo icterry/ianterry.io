@@ -144,7 +144,7 @@ The site you cloned and are currently serving should have a directory structure 
 
 
 
-Let's start by looking at `index.html`-->
+To begin, edit the file `index.html`-->
 <br>
 <br>
 1. It's pretty obvious what we want to change here, but first, look at the document's structure. Notice the first four lines are dedicated to some high level information. This is called [Front Matter](https://jekyllrb.com/docs/front-matter/), and you'll need to add and modify this part of the file often to make sure Jekyll does what you want it to.
@@ -248,7 +248,28 @@ Jekyll allows us to use CSS (and SASS) to stylize our site, so if you're familia
     ```
 
 This is my blog after making those changes:
-    ![After making my aesthetic improvements](/assets/images/My_Second_Blog_Customized.PNG)
+
+![After making my aesthetic improvements](/assets/images/My_Second_Blog_Customized.PNG)
+
+
+# Build 
+
+So far, we've been using `jekyll serve` to serve our site "live" as we make changes, but if we're going to host this on a site, we need Jekyll to build our site in a static format that won't respond to changes unless we want it to. 
+
+If you're still serving your site with `jekyll serve`, go ahead and kill that process. In the same terminal, run the following command:
+```bash
+jekyll build
+```
+This time, Jekyll will build your website into a new folder in your site's directory called `_site`. This is the directory to which your webserver will be pointed when you start hosting your site for real.
+
+# Hosting your site for real... and more!
+
+We covered a lot about using Jekyll, serving your first (and second) blog sites, customization, and more in this tutorial. In the next, we'll go through the steps of taking the site we built and hosting it on the internet for everyone to see. 
+
+Till next time,
+Ian
+
+# Footnotes
 
 
 [^1]: When you run `jekyll serve` in the directory of your jekyll site, it starts a service on port 4000 that you can use to look at your site as you configure and customize it. This cool feature dynamically updates changes to the site as you save them. `jekyll build` renders and publishes your HTML files to the _site directory, which is where your webserver points to show your site to visitors.
