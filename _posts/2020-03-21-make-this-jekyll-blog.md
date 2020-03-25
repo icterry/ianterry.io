@@ -1,5 +1,5 @@
 ---
-title: "Making a Self Served Blog with Jekyll"
+title: "Making a Self Served Blog with Jekyll Part: 1"
 category: posts
 date: 2020-03-20
 excerpt: "An end-to-end tutorial (and journey)"
@@ -224,13 +224,32 @@ Instead of modifying this one, let's make our own.
 
 4. Save and refresh your browser *you are still serving right?*
 
-All right, our blog is totally filled with our own content, and Hank Quinlan is ousted. Nice job.
+All right, our blog is totally filled with our own content and Hank Quinlan is ousted. Nice job.
 
 ## Aesthetics
+Jekyll allows us to use CSS (and SASS) to stylize our site, so if you're familiar with CSS already, you already know how to customize your static page. 
 
+1. Open the directory titled `css` and edit the file called `main.css`
+2. We already see that a lot of starter work is in place. We can edit this file to change the background color, font size, etc. 
+3. Change this up as you see fit. 
+4. Here are some examples of what I did:
+    ```css
+    #Changed the background-color and color of my text
+    body {
+        background-color: #1e1e1e;
+        color: #aeaeae;
+    }
+    #Changed my link color
+    a {
+    text-decoration: none;
+    color: #d2d2d2;
+    }
+    # 
+    ```
 
+This is my blog after making those changes:
+    ![After making my aesthetic improvements](/assets/images/My_Second_Blog_Customized.PNG)
 
-## Leveling up
 
 [^1]: When you run `jekyll serve` in the directory of your jekyll site, it starts a service on port 4000 that you can use to look at your site as you configure and customize it. This cool feature dynamically updates changes to the site as you save them. `jekyll build` renders and publishes your HTML files to the _site directory, which is where your webserver points to show your site to visitors.
 
