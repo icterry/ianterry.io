@@ -100,8 +100,9 @@ author:
   email            :
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      #icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/ian-terry/"
     - label: "Music"
       icon: "fas fa-fw fa-link"
       url: "https://song.link/FSZnsMdnZQsXF"
