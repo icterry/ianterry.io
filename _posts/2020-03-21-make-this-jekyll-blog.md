@@ -234,12 +234,12 @@ Jekyll allows us to use CSS (and SASS) to stylize our site, so if you're familia
 3. Change this up as you see fit. 
 4. Here are some examples of what I did:
     ```css
-    #Changed the background-color and color of my text
+    /*Changed the background-color and color of my text*/
     body {
         background-color: #1e1e1e;
         color: #aeaeae;
     }
-    #Changed my link color
+    /*Changed my link color*/
     a {
     text-decoration: none;
     color: #d2d2d2;
