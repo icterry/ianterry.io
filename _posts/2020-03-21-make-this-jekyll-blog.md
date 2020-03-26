@@ -271,9 +271,6 @@ Ian
 
 <br>
 <br>
-<br>
-<br>
-
 
 
 [^1]: When you run `jekyll serve` in the directory of your jekyll site, it starts a service on port 4000 that you can use to look at your site as you configure and customize it. This cool feature dynamically updates changes to the site as you save them. `jekyll build` renders and publishes your HTML files to the _site directory, which is where your webserver points to show your site to visitors.
