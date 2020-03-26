@@ -191,7 +191,7 @@ All right, now let's talk about posts. With Jekyll, there are three big things y
 2. Posts are written in [Markdown](https://en.wikipedia.org/wiki/Markdown), with file extensions of either `.md` or `.markdown`
 3. Posts *must* follow the folling naming convension for their files:
     ```bash
-    YYYY-03-21-your-blog-post-name.md
+    YYYY-MM-DD-your-blog-post-name.md
     ```
 Let's open the existing post in this folder.
 
@@ -252,7 +252,7 @@ This is my blog after making those changes:
 ![After making my aesthetic improvements](/assets/images/My_Second_Blog_Customized.PNG)
 
 
-# Build 
+## Build 
 
 So far, we've been using `jekyll serve` to serve our site "live" as we make changes, but if we're going to host this on a site, we need Jekyll to build our site in a static format that won't respond to changes unless we want it to. 
 
@@ -262,14 +262,18 @@ jekyll build
 ```
 This time, Jekyll will build your website into a new folder in your site's directory called `_site`. This is the directory to which your webserver will be pointed when you start hosting your site for real.
 
-# Hosting your site for real... and more!
+## Hosting your site for real... and more!
 
 We covered a lot about using Jekyll, serving your first (and second) blog sites, customization, and more in this tutorial. In the next, we'll go through the steps of taking the site we built and hosting it on the internet for everyone to see. 
 
 Till next time,
 Ian
 
-# Footnotes
+<br>
+<br>
+<br>
+<br>
+
 
 
 [^1]: When you run `jekyll serve` in the directory of your jekyll site, it starts a service on port 4000 that you can use to look at your site as you configure and customize it. This cool feature dynamically updates changes to the site as you save them. `jekyll build` renders and publishes your HTML files to the _site directory, which is where your webserver points to show your site to visitors.
