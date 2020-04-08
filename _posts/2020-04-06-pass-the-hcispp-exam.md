@@ -32,15 +32,15 @@ To make it easier for everyone else, I put together this handy study guide that 
 
 In this guide, we'll go over the following topics:
 
-1. [About the Exam](https://ianterry.io/posts/pass-the-hcispp-exam/#about-the-exam)
-2. [Official HCISPP Exam Outline](https://ianterry.io/posts/pass-the-hcispp-exam/#official-hcispp-exam-outline)
-3. [HIPAA](https://ianterry.io/posts/pass-the-hcispp-exam/#hipaa)
-4. [Books](https://ianterry.io/posts/pass-the-hcispp-exam/#books)
-5. [Videos](https://ianterry.io/posts/pass-the-hcispp-exam/#hcispp-videos)
-6. [Flashcards](https://ianterry.io/posts/pass-the-hcispp-exam/#interactive-flashcards-from-isc2)
-7. [NIST Special Publications](https://ianterry.io/posts/pass-the-hcispp-exam/#nist-special-publications)
-8. [Total Cost](https://ianterry.io/posts/pass-the-hcispp-exam/#total-cost)
-9. [Exam Day](https://ianterry.io/posts/pass-the-hcispp-exam/#exam-day)
+1. [About the Exam](https://www.ianterry.io/posts/pass-the-hcispp-exam/#about-the-exam)
+2. [Official HCISPP Exam Outline](https://www.ianterry.io/posts/pass-the-hcispp-exam/#official-hcispp-exam-outline)
+3. [HIPAA](https://www.ianterry.io/posts/pass-the-hcispp-exam/#hipaa)
+4. [Books](https://www.ianterry.io/posts/pass-the-hcispp-exam/#books)
+5. [Videos](https://www.ianterry.io/posts/pass-the-hcispp-exam/#hcispp-videos)
+6. [Flashcards](https://www.ianterry.io/posts/pass-the-hcispp-exam/#interactive-flashcards-from-isc2)
+7. [NIST Special Publications](https://www.ianterry.io/posts/pass-the-hcispp-exam/#nist-special-publications)
+8. [Total Cost](https://www.ianterry.io/posts/pass-the-hcispp-exam/#total-cost)
+9. [Exam Day](https://www.ianterry.io/posts/pass-the-hcispp-exam/#exam-day)
 
 Let's get started.
 
@@ -190,10 +190,10 @@ By using all of these resources, most of which are free, you should expect to co
 
 1. [Official (ISC)<sup>2</sup> Guide to the HCISPP CBK](https://www.amazon.com/Official-ISC-Guide-HCISPP-Press/dp/1482262770#customerReviews) - $50 if used
 2. [Healthcare Information Security and Privacy](https://www.amazon.com/Healthcare-Information-Security-Privacy-Murphy-ebook/dp/B00LI367Q4) - $35 paperback
-3. [HIPAA rules](https://ianterry.io/posts/pass-the-hcispp-exam/#hipaa) - FREE
-4. [NIST Special Publications](https://ianterry.io/posts/pass-the-hcispp-exam/#nist-special-publications) - FREE
-5. [Youtube videos](https://ianterry.io/posts/pass-the-hcispp-exam/#hcispp-videos) - FREE
-6. [Official (ISC)<sup>2</sup> HCISPP Flashcards](https://ianterry.io/posts/pass-the-hcispp-exam/#interactive-flashcards-from-isc2) - FREE!!!
+3. [HIPAA rules](https://www.ianterry.io/posts/pass-the-hcispp-exam/#hipaa) - FREE
+4. [NIST Special Publications](https://www.ianterry.io/posts/pass-the-hcispp-exam/#nist-special-publications) - FREE
+5. [Youtube videos](https://www.ianterry.io/posts/pass-the-hcispp-exam/#hcispp-videos) - FREE
+6. [Official (ISC)<sup>2</sup> HCISPP Flashcards](https://www.ianterry.io/posts/pass-the-hcispp-exam/#interactive-flashcards-from-isc2) - FREE!!!
 
     The exam itself costs $599, leaving the total cost _under $700!_
 
