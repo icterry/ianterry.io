@@ -3,12 +3,14 @@ title: "How to Pass the HCISPP Exam"
 category: posts
 date: 2020-04-06
 excerpt: "How I passed: books, resources, flashcards, and more!"
+header:
+    teaser: /assets/images/How-to-pass-the-HCISPP/post_title.png
 ---
 ![How to pass the HCISPP exam](/assets/images/How-to-pass-the-HCISPP/post_title.png)
 
 ## Introduction
 
-If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the Health Information Security and Privacy Practicioner (HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to get if you are eligible for the requirements,[^1] and a great way to improve your knowledge and progress your career. 
+If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the [Health Information Security and Privacy Practitioner (HCISPP)](https://www.isc2.org/Certifications/HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to get if you are eligible for the requirements,[^1] and a great way to improve your knowledge and progress your career. 
 
 In fact, if you were to take and pass the exam, you would be part of an elite group of *only 1410 HCISPP holders* at the time of writing.[^2] This number is staggeringly small when compared to the number of (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
 
