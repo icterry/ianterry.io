@@ -12,7 +12,7 @@ header:
 
 If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the [Health Information Security and Privacy Practitioner (HCISPP)](https://www.isc2.org/Certifications/HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to get if you are eligible for the requirements,[^1] and a great way to improve your knowledge and progress your career. 
 
-In fact, if you were to take and pass the exam, you would be part of an elite group of *only 1410 HCISPP holders* at the time of writing.[^2] This number is staggeringly small when compared to the number of (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
+In fact, if you were to take and pass the exam, you would be part of an elite group of *only 1410 HCISPP holders* at the time of writing.[^2] This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
 
 Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, I'm confident this number will grow in the coming years, as Data Privacy & Security in Healthcare is on a massive uptrend in importance and opportunity.
 
