@@ -206,7 +206,11 @@ The morning before the test, I reviewed the flashcards again for a couple hours.
 
 Overall, I believe my testing time was under 45 minutes out of the nearly 3 hours they give you, which is either a testament to my preparedness, or the easiness of the test. 
 
-For those of us already working in the field, as long as you take the time to prepare and study, you will be pass. It is not a particularly difficult exam, and many of us have enough experience to be familiar with the terminologies, scenarios, and answers to be successful.
+## Final Thoughts
+
+Without a doubt, the HCISPP is a valuable certification to have when working as a healthcare security and privacy professional. The exam encompasses all the topics one needs to be successful in this field. 
+
+For those seeking to achieve HCISSP status, as long as you take the time to prepare and study - you will be pass. It is not a particularly difficult exam, and many of us have enough experience to be familiar with the terminologies, scenarios, and answers to be successful.
 
 Looking forward to seeing you join our ranks as an HCISPP,
 
