@@ -14,7 +14,7 @@ If you're a cybersecurity or information security professional in the healthcare
 
 In fact, if you were to take and pass the exam, you would be part of an elite group of *only 1410 HCISPP holders* at the time of writing.[^2] This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
 
-Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, I'm confident this number will grow in the coming years, as Data Privacy & Security in Healthcare is on a massive uptrend in importance and opportunity.
+Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, I'm confident this number will grow in the coming years, as [Data Privacy & Security in Healthcare](https://medium.com/hackernoon/data-privacy-security-in-healthcare-8bb15e203e56) is on a massive uptrend in importance and opportunity.
 
 Before long, I imagine there will be tens of thousands of HCISPPs and upwards of half a million CISSP holders by then!
 
