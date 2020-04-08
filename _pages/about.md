@@ -10,6 +10,6 @@ I've worked for a large-scale health system and a nationally recognized consulti
 
 Currently, I hold a Bachelor's in Computer and Network Security from Wilmington University, a National Center of Academic Excellence in Information Assurance and Cybersecurity as recognized by the NSA and DHS. My learning didn't stop there, however, and since graduating I've attained a number of professional certifications. [^1]
 
-My curiousity spans beyond the professional realm. I've published over 20 self-produced original songs on all major streaming platforms as an autodidactic multi-instrumentalist. I'm also an avid reader. Recently, I've begun exploring a new interest in sportshooting. Ultimately, I strive to be uncategorizable.
+My curiousity spans beyond the professional realm. As an autodidactic multi-instrumentalist, I've published over 20 self-produced original songs on all major streaming platforms. I'm also an avid reader. Recently, I began exploring a new interest in shooting. Ultimately, I strive to be uncategorizable.
 
 [^1]: Specifically, I hold ISC<sup>2</sup>'s SSCP and HCISPP certifications, and Certified Scrum Master (CSM).
