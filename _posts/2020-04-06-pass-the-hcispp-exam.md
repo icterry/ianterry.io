@@ -12,7 +12,7 @@ header:
 
 If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the [Health Information Security and Privacy Practitioner (HCISPP)](https://www.isc2.org/Certifications/HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to get if you are eligible for the requirements,[^1] and a great way to improve your knowledge and progress your career. 
 
-In fact, if you were to take and pass the exam, you would be part of an elite group of *only 1410 HCISPP holders* at the time of writing.[^2] This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
+In fact, if you were to take and pass the exam, you would be part of an elite group of [only 1410 HCISPP holders at the time of writing](https://www.isc2.org/About/Member-Counts). This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
 
 Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, I'm confident this number will grow in the coming years, as [Data Privacy & Security in Healthcare](https://medium.com/hackernoon/data-privacy-security-in-healthcare-8bb15e203e56) is on a massive uptrend in importance and opportunity.
 
@@ -56,7 +56,7 @@ The HCISPP exam is divided into seven domains:
 6. Domain 6 - Risk Management and Risk Assessment
 7. Domain 7 - Third Party Risk Management
 
-These domains cover the breadth of industry knowledge a successful security and privacy professional will need to know in order to be successful working for healthcare business associates or covered entities.[^3]
+These domains cover the breadth of industry knowledge a successful security and privacy professional will need to know in order to be successful working for healthcare business associates or covered entities.[^2]
 
 I won't break these domains down for you here, but I will give you a good resource available directly from (ISC)<sup>2</sup> that does...
 
@@ -218,8 +218,6 @@ Ian
 
 [^1]: Of course, with any (ISC)<sup>2</sup> certification, even if you don't have enough professional experience for the full fledged certification, you can still take the exam and become an associate of (ISC)<sup>2</sup> and apply to be certified later. [Here is a full list of the HCISPP eligibility requirements](https://www.isc2.org/Certifications/HCISPP/experience-requirements).
 
-[^2]: See [(ISC)<sup>2</sup> Member Counts](https://www.isc2.org/About/Member-Counts).
-
-[^3]: Covered Entities are health plans, clearing houses, and health care providers. Business associates are any companies that do business with those entities. More on this topic is available from the [Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html).
+[^2]: Covered Entities are health plans, clearing houses, and health care providers. Business associates are any companies that do business with those entities. More on this topic is available from the [Department of Health & Human Services](https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html).
 
 
