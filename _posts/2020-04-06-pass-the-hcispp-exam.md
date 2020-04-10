@@ -45,7 +45,7 @@ In this guide, we'll go over the following topics:
 Let's get started.
 
 ## About the Exam
-First, let's look at the exam itself to understand, on a high level, the topics with which we will need to be come familiar in order to be successful.
+First, let's look at the exam itself to understand, on a high level, the topics with which we will need to become familiar in order to be successful.
 
 The exam contains 125 multiple choice questions, each with four possible answers, which you'll have to complete within a three hour time limit.
 
@@ -213,7 +213,7 @@ Overall, I believe my testing time was under 45 minutes out of the nearly 3 hour
 
 Without a doubt, the HCISPP is a valuable certification to have when working as a healthcare security and privacy professional. The exam encompasses all the topics one needs to be successful in this field. 
 
-For those seeking to achieve HCISSP status, as long as you take the time to prepare and study - you will be pass. It is not a particularly difficult exam, and many of us have enough experience to be familiar with the terminologies, scenarios, and answers to be successful.
+For those seeking to achieve HCISPP status, as long as you take the time to prepare and study - you will be pass. It is not a particularly difficult exam, and many of us have enough experience to be familiar with the terminologies, scenarios, and answers to be successful.
 
 Looking forward to seeing you join our ranks as an HCISPP,
 
