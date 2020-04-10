@@ -10,11 +10,11 @@ header:
 
 ## Introduction
 
-If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the [Health Information Security and Privacy Practitioner (HCISPP)](https://www.isc2.org/Certifications/HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to get if you are eligible for the requirements,[^1] and a great way to improve your knowledge and progress your career. 
+If you're a cybersecurity or information security professional in the healthcare industry, or are looking to specialize your skillset to make a transition, you may have come across the [Health Information Security and Privacy Practitioner (HCISPP)](https://www.isc2.org/Certifications/HCISPP) certification offered by (ISC)<sup>2</sup>. It's a worthwhile certification to obtain if you meet the experience requirements,[^1] and a great way to improve your knowledge and progress your career. 
 
-In fact, if you were to take and pass the exam, you would be part of an elite group of [only 1410 HCISPP holders at the time of writing](https://www.isc2.org/About/Member-Counts). This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
+In fact, if you were to become a certified HCISPP, you would be apart of an elite group of [only 1410 HCISPP holders at the time of writing](https://www.isc2.org/About/Member-Counts). This number is staggeringly small when compared to the (ISC)<sup>2</sup> CISSP population which is well over 100,000 and counting!
 
-Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, I'm confident this number will grow in the coming years, as [Data Privacy & Security in Healthcare](https://medium.com/hackernoon/data-privacy-security-in-healthcare-8bb15e203e56) is on a massive uptrend in importance and opportunity.
+Admittedly, the HCISPP is a much more niche certification without as much industry renown as the CISSP. However, this number is sure to grow in the coming years, as [Data Privacy & Security in Healthcare](https://medium.com/hackernoon/data-privacy-security-in-healthcare-8bb15e203e56) continues on its massive uptrend in importance and opportunity.
 
 Before long, I imagine there will be tens of thousands of HCISPPs and upwards of half a million CISSP holders by then!
 
@@ -22,9 +22,9 @@ Before long, I imagine there will be tens of thousands of HCISPPs and upwards of
 
 That was a pretty weak pun.
 
-What I mean is: as seekers and holders of the HCISPP, we can certainly be considered "early adopters". Unfortuantely, being a member of this respectable minority represents its own unique challenges...
+What I mean is: as seekers and holders of the HCISPP, we can certainly be considered "early adopters". Unfortuantely, being a member of this respectable minority represents its own unique challenges.
 
-Specifically, there's practically nothing out there in terms of learning materials or study guides!
+Specifically, there's practically nothing out there in terms of learning materials or study guides for the HCISPP exam!
 
 If you've stumbled across this article, it's probably a result of having scoured the internet in search of a complete HCISPP study guide. I know when I began, it took a while to find enough study materials to be confident enough to sit for the exam.
 
@@ -47,7 +47,10 @@ Let's get started.
 ## About the Exam
 First, let's look at the exam itself to understand, on a high level, the topics with which we will need to be come familiar in order to be successful.
 
+The exam contains 125 multiple choice questions, each with four possible answers, which you'll have to complete within a three hour time limit.
+
 The HCISPP exam is divided into seven domains:
+
 1. Domain 1 - Healthcare Industry
 2. Domain 2 - Information Governance in Healthcare
 3. Domain 3 - Information Technologies in Healthcare
@@ -64,9 +67,9 @@ I won't break these domains down for you here, but I will give you a good resour
 
 [The Official ISC<sup>2</sup> HCISPP Exam Outline](https://www.isc2.org/-/media/ISC2/Certifications/Exam-Outlines/HCISPP-Exam-Outline.ashx) breaks down the HCISPP exam domains into specific keywords, terms, and concepts.
 
-This is document for understanding all the topics in which you'll need to demonstrate competence to pass the HCISPP exam.
+This is a great document for understanding all of the topics in which you'll need to demonstrate competence to pass the HCISPP exam.
 
-I kept this reference close at hand while I studying so I could connect information from my study materials back to the domain to which it was related.
+I kept this reference close at hand while studying. This made it easy to connect information from my study materials back to the domain to which it was related.
 
 For example, if I viewed a video about conducting Security Risk Assessments, I could tie that back to Domain 6 and make sure to cover all the bases on the subject - such as delving deeper into the Risk Management Framework (RMF) as suggested by the exam outline.
 
@@ -75,7 +78,7 @@ The outline is a great tool to see the scope of everything you'll need to learn 
 For that, let's look at all the resources I used to prep for the HCISPP exam.
 
 ## HIPAA
-When it comes to healthcare security and privacy in the United States, the Healthcare Insurance Portability and Accountability Act (HIPAA) has the final word on legal requirements and security controls. 
+When it comes to healthcare security and privacy in the United States, the Healthcare Insurance Portability and Accountability Act (HIPAA) has the final word on legal requirements and security safeguards. 
 
 HIPAA regulations dictate what covered entities and business associates must do to protect the confidentiality, integrity, and availability of protected health information (PHI). 
 
@@ -94,7 +97,7 @@ To prepare for the HCISPP exam, you should familiarize yourself with each of the
 
 A simple Google search of these three rules should yield a wealth of information, but you should also consider *skimming* through the rules themselves.
 
-Unless you're a real over-achiever, I *do not* recommend reading the entirety of this legalese, as it would be extraordinarily time consuming and isn't necessary to pass the HCISPP exam.
+Unless you're a real over-achiever, I *do not* recommend reading the entirety of this legalese. Tt would be extraordinarily time consuming and isn't necessary to pass the HCISPP exam.
 
 ## Books
 For some, cracking open a 600-page long textbook and reading through the whole thing is the key to success.
@@ -103,7 +106,7 @@ If you're in this camp, you're in luck.
 
 There are a number of useful books available to help you on your journey to getting HCISPP-certified. 
 
-First, I'll talk about the ones I used:
+First, lets review the ones I used:
 
 1. [Official (ISC)<sup>2</sup> Guide to the HCISPP CBK](https://www.amazon.com/Official-ISC-Guide-HCISPP-Press/dp/1482262770#customerReviews)
 	
@@ -111,13 +114,13 @@ First, I'll talk about the ones I used:
 	
 	Admittedly, I didn't read it end-to-end. It makes for dry reading, and because I already have experience in the field, I was better off jumping around to chapters where I felt my knowledge was weakest.
 	
-	There are review questions at the end of each chapter, which can be helpful. On the day of the test, I reviewed the chapter summaries. This proved really valuable as a refresher. 
+	There are review questions at the end of each chapter which can be helpful for practice and memorization of key concepts. On the day of the test, I reviewed the chapter summaries. This proved really valuable as a last-minute refresher. 
 	
 2. [Healthcare Information Security and Privacy](https://www.amazon.com/Healthcare-Information-Security-Privacy-Murphy-ebook/dp/B00LI367Q4)
 
-	In terms of readability, this book was a lot better than the tome-like (ISC)<sup>2</sup> official guide. Sometimes it came off as repetitive, and was little less in-depth on some topics.
+	In terms of readability, this book was a lot better than the tome-like (ISC)<sup>2</sup> official guide. However, sometimes it came off as repetitive, and it was little less in-depth on some topics.
 	
-	At the end of each chapter, there are review questions to do. Coupled these with those available in the official guide, these questions make a good addition to your practice question bank.
+	At the end of each chapter, there are review questions to complete. Coupled these with those available in the official guide, these questions make a good addition to your practice question bank.
 	
 	Some of the reviewers on Amazon even claim to have passed using only this book. I found it was worthy supplementation.
 	
@@ -125,7 +128,7 @@ There are other books available should you need them, however, I can't personnal
 
 1. [HCISPP Study Guide by Syngress](https://www.amazon.com/HCISPP-Study-Guide-Timothy-Virtue/dp/0128020431)
 
-	The reviews don't seem to be glowing on this one, but if you're the equivalent of a doomsday prepper when it comes to test preparation, it may be worth grabbing. 
+	The reviews don't seem to be glowing on this one, but if you're the equivalent of a doomsday prepper when it comes to test preparation, it may be worth grabbing.
 	
 	
 In all honesty, I have trouble reading these kinds of books end-to-end. The ones I purchased were valuable as referential material and for filling in knowledge gaps, but I knew I needed some other mediums for learning if I was to have any hope of passing the HCISPP exam.
@@ -137,7 +140,7 @@ Forunately, I dug up some other, more accessible  resources...
 
 When studying for certification tests, I find visual and audio mediums for learning very effective. Also, they're flexible. Instead of my usual podcasts, I can listen to videos in the car, or watch them wherever I have my phone. Plus, they can be engaging when it becomes tiresome to read lengthy textbooks.
 
-In my searches, I found an entire collection of HCISPP videos available on YouTube. However, I'm not going to link them directly, because I'm not confident as to the ownership of the content. However, I'll be putting together my own series of videos and slides on the subject to fill the gap. More to come on that.
+In my searches, I found an entire collection of HCISPP videos available on YouTube. However, I'm not going to link them directly, because I'm not confident as to the ownership of the content. 
 
 In the meantime, I suggest you search through YouTube for anything related to HCISPP, HIPAA, privacy and security in healthcare, as well as any topics or subjects pulled out of the official exam outline.
 
