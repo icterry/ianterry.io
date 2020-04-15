@@ -183,8 +183,8 @@ Much of the fundamentals related to information security, cybersecurity, and pri
 For the HCISPP exam, reviewing the following documents will yield some valuable insight on many different topics, such as risk management, encryption, and privacy:
 
 1. [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) - Security and privacy controls
-2. [NIST SP 800-175b](https://csrc.nist.gov/csrc/media/publications/sp/800-175b/archive/2016-03-11/documents/sp800-175b-draft.pdf) Cryptographic standards
-3. [Risk Management Framework (RMF)](https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview)
+2. [NIST SP 800-175b](https://csrc.nist.gov/csrc/media/publications/sp/800-175b/archive/2016-03-11/documents/sp800-175b-draft.pdf) - Cryptographic standards
+3. [Risk Management Framework (RMF)](https://csrc.nist.gov/projects/risk-management/risk-management-framework-(RMF)-Overview) - Important for Domain 6!
 
 Like the HIPAA rules, I really don't recommend reading the entirety of these documents. Instead, jump to sections that map to domains specified in the exam outline.
 
